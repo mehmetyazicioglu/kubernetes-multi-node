@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+ labels:
+ app: cdh
+ name: cdh
+spec:
+ ports:
+ -
+ port: 50010
+ -
+ port: 8020
+ selector:
+ app: cdh
+ type: LoadBalancer 
