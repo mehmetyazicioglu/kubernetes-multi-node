@@ -1,1 +1,4 @@
-# kubernetes-multi-node
+# kubernetes
+setting up hadoop cluster on kubernetes. 
+
+
