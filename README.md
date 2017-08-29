@@ -11,6 +11,8 @@ kubectl create -f cdh-rc.yaml
 
 # setting up solr containers.
 
+first creating the service for solr pods.
+
 kubectl create -f solr-service.yaml
 
 creating the rc controller. 
